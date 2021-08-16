@@ -1,4 +1,7 @@
 // Implemented using Turbo C
+// Steps to enable Graphics Library in Turbo C.   
+// Option -> Linkers -> Libraries -> Graphics Library
+
  #include<stdio.h>
  #include<conio.h>
  #include<math.h>
@@ -52,7 +55,7 @@
 	printf("        ********** DDA Line Plotting Program ********\n");
 	printf("                    DDA Line ALGORITHM\n");
 	printf("Enter values of Start and End points (x1,y1) and (x2,y2):\n");
-	scanf("%f %f %f %f", &x1, &y1, &x2, &y2);
+	scanf("%f %f %f %f", &x1, &y1, &x2, &y2); // Eg: Put values 100 100 400 400
 	printf("-------------------------------------------------------------");
    
 	DDA(x1, y1, x2, y2);
